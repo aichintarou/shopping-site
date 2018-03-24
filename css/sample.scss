@@ -254,6 +254,8 @@ body{
                 }
                 
                 .center_btn{
+                    position: relative;
+                    bottom: 10px;
                     text-align: right;
                     width: 75%;
                     float: right;
@@ -406,6 +408,7 @@ footer{
     background: $lightbrown;
     padding: 7px;
     margin-bottom: 10px;
+    border-radius: 4px;
     li{
         list-style: none;
         padding: 0;
